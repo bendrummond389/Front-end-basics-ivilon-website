@@ -1,0 +1,88 @@
+
+{"products": 
+[{
+  "id": 1,
+  "imageUrl": "https://m.media-amazon.com/images/I/21Erq7u3BXL._SL500_.jpg",
+  "description": "Ivilon Drapery Treatment Window Curtain Rod - Acrylic",
+  "price": "$31.87",
+  "prime": "true"
+},
+{
+  "id": 2,
+  "imageUrl": "https://m.media-amazon.com/images/I/21j5U5z4vsL._SL500_.jpg",
+  "description": "Ivilon Drapery Treatment Window Curtain Rod - Acrylic",
+  "price": "$31.98",
+  "prime": "true"
+},
+{
+  "id": 3,
+  "imageUrl": "https://m.media-amazon.com/images/I/219SEeqnrIL._SL500_.jpg",
+  "description": "Ivilon Drapery Treatment Window Curtain Rod - Acrylic",
+  "price": "$29.78 ",
+  "prime": "true"
+},
+
+{
+  "id": 4,
+  "imageUrl": "https://m.media-amazon.com/images/I/21ZFmX2CuwL._SL500_.jpg",
+  "description": "Ivilon Drapery Window Curtain Rod - End Cap Style Design 1",
+  "price": "$27.97",
+  "prime": "true"
+},
+{
+  "id": 5,
+  "imageUrl": "https://m.media-amazon.com/images/I/31p21KCv5fL._SL500_.jpg",
+  "description": "Ivilon Drapery Window Curtain Rod - End Cap Style Design 1",
+  "price": "$27.99",
+  "prime": "true"
+},
+{
+  "id": 6,
+  "imageUrl": "https://m.media-amazon.com/images/I/21WHnqT3HWL._SL500_.jpg",
+  "description": "Ivilon Drapery Window Curtain Rod - End Cap Style Design 1",
+  "price": "$27.97",
+  "prime": "true"
+},
+{
+  "id": 7,
+  "imageUrl": "https://m.media-amazon.com/images/I/31+a3rHQ65L._SL500_.jpg",
+  "description": "Ivilon Drapery Window Curtain Rod - Twisted Style Set, 28 to",
+  "price": "View price on Amazon",
+  "prime": "false"
+},
+{
+  "id": 8,
+  "imageUrl": "https://m.media-amazon.com/images/I/31oDPX3v52L._SL500_.jpg",
+  "description": "Ivilon Window Curtain Rod - Edge Style Drapery Treatment",
+  "price": "$28.99",
+  "prime": "true"
+},
+{
+  "id": 9,
+  "imageUrl": "https://m.media-amazon.com/images/I/31OOke8Hu9L._SL500_.jpg",
+  "description": "Ivilon Drapery Window Curtain Rod - Twisted Style Set, 28 to",
+  "price": "View price on Amazon",
+  "prime": "false"
+},
+{
+  "id": 10,
+  "imageUrl": "https://m.media-amazon.com/images/I/415oGK3LlNL._SL500_.jpg",
+  "description": "Ivilon Drapery Eyelet Curtain Rings - 2.3\" Ring for Curtain",
+  "price": "$8.41",
+  "prime": "true"
+},
+{
+  "id": 11,
+  "imageUrl": "https://m.media-amazon.com/images/I/31ON+FcqZDL._SL500_.jpg",
+  "description": "Ivilon Drapery Eyelet Curtain Rings - 1.7\" Ring for Curtain",
+  "price": "$7.90",
+  "prime": "true"
+},
+{
+  "id": 12,
+  "imageUrl": "https://m.media-amazon.com/images/I/41DMQDC4C7L._SL500_.jpg",
+  "description": "Ivilon Drapery Eyelet Curtain Rings - 2\" Ring Loop for Hook",
+  "price": "$8.19",
+  "prime": "true"
+}
+]}

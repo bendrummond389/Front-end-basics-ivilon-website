@@ -54,7 +54,76 @@ hr {
   background-color: rgb(27, 27, 27);
 }
 
-@include media-breakpoint-up(lg) {
+
+#product-grid {
+  display: grid;
+  place-items: center;
+  grid-template-columns: auto;
+
+}
+
+
+.product-card {
+  position: relative;
+  margin: 50px;
+  height: 510px;
+  width: 280px;
+  overflow: hidden;
+  background-color: #fff;
+
+}
+
+.product-image {
+  height: 280px;
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.product-prompt {
+  background-color: #2f2e2e;
+  color: #fff;
+  position: absolute;
+  transition-duration: 1s;
+  width: 100%;
+  height: 130px;
+  top: 280px;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.product-prompt h6{
+  width: 100%;
+}
+
+
+.product-description {
+  position: absolute;
+  height: 230px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #d1cac9;
+}
+.prime-logo{
+  width:50px;
+  height: auto;
+}
+
+.btn-light{
+  background-color: inherit;
+  border: 1px solid #2f2e2e;
+}
+
+.btn-light:hover{
+  border: 2px solid #2f2e2e;
+}
+
+.product-card:hover>.product-prompt {
+  transform: translateY(-60px);
+}
+
+@include media-breakpoint-up(md) {
   .parallax {
     background-size: cover;
     background-attachment: fixed;
@@ -63,5 +132,10 @@ hr {
   .curtain-rod {
     width: 100%;
     height: 1800px;
+  }
+
+  #product-grid {
+    grid-template-columns: auto auto auto;
+  
   }
 }

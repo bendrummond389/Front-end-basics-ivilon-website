@@ -10901,7 +10901,76 @@ hr {
   background-color: #1b1b1b;
 }
 
-@media (min-width: 992px) {
+#product-grid {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+}
+
+.product-card {
+  position: relative;
+  margin: 50px;
+  height: 510px;
+  width: 280px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.product-image {
+  height: 280px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.product-prompt {
+  background-color: #2f2e2e;
+  color: #fff;
+  position: absolute;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  width: 100%;
+  height: 130px;
+  top: 280px;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.product-prompt h6 {
+  width: 100%;
+}
+
+.product-description {
+  position: absolute;
+  height: 230px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #d1cac9;
+}
+
+.prime-logo {
+  width: 50px;
+  height: auto;
+}
+
+.btn-light {
+  background-color: inherit;
+  border: 1px solid #2f2e2e;
+}
+
+.btn-light:hover {
+  border: 2px solid #2f2e2e;
+}
+
+.product-card:hover > .product-prompt {
+  -webkit-transform: translateY(-60px);
+          transform: translateY(-60px);
+}
+
+@media (min-width: 768px) {
   .parallax {
     background-size: cover;
     background-attachment: fixed;
@@ -10909,6 +10978,10 @@ hr {
   .curtain-rod {
     width: 100%;
     height: 1800px;
+  }
+  #product-grid {
+    -ms-grid-columns: auto auto auto;
+        grid-template-columns: auto auto auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
