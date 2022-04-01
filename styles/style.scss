@@ -1,6 +1,8 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+$dark: #2f2e2e;
+
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -8,9 +10,9 @@
 // Then add additional custom code here
 
 
-* {
-  border: 1px solid black;
-}
+// * {
+//   border: 1px solid black;
+// }
 
 html {
   scroll-behavior: smooth;
@@ -32,6 +34,13 @@ body {
   height: 500px;
   width: 100%;
   background-image: url('../images/curtain-and-hooks-lg.jpg');
+}
+
+.milling-machine{
+  height: 500px;
+  width: 100%;
+  background-image: url('../images/milling-machine.jpg');
+
 }
 
 .overlay{
