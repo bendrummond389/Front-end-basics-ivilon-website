@@ -15,3 +15,53 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  background-color: snow;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.parallax {
+  background-position: center;
+  background-size: 200%;
+  background-repeat: no-repeat;
+}
+
+.curtain-rod {
+  height: 500px;
+  width: 100%;
+  background-image: url('../images/curtain-and-hooks-lg.jpg');
+}
+
+.overlay{
+  height: 100%;
+  backdrop-filter: grayscale(40%) contrast(20%) opacity(100%) brightness(150%);
+}
+
+#logo {
+  width: 30%;
+  height: auto;
+}
+
+.container {
+  background-color: #d1cac9;
+}
+
+hr {
+  height: 2px;
+  width: 60px;
+  background-color: rgb(27, 27, 27);
+}
+
+@include media-breakpoint-up(lg) {
+  .parallax {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .curtain-rod {
+    width: 100%;
+    height: 1800px;
+  }
+}
